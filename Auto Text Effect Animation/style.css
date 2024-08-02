@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,1,600&family=Permanent+Marker&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #363062;
+    color: yellow;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: xx-large;
+}
