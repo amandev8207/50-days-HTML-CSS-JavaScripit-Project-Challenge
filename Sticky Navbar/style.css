@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+.top-container{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/21/lights-1282268_1280.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+.top-container h1{
+    color: rgba(30, 126, 252, 0.822);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    float: left;
+}
+.text {
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.4s;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar img{
+   width: 200px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+    
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar.active {
+   background-color: black;
+}
+.navbar.active ul li a{
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: darkgreen;
+    font-weight: bolder;
+}
+footer span{
+    color: #ff0000;
+    font-weight: bolder;
+}
