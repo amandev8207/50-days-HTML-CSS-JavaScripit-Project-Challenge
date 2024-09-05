@@ -1,0 +1,9 @@
+
+
+
+btn.addEventListener("click",() => {
+    generateQR();
+});
+
+
+
