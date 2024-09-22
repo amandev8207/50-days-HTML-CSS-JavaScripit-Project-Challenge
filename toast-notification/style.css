@@ -62,3 +62,14 @@ body {
 .toast.error {
   color: red;
 }
+
+footer p{
+  text-align: center;
+  font-size: 20px;
+  color: darkgreen;
+  font-weight: bolder;
+}
+footer span{
+  color: yellow;
+  font-weight: bolder;
+}
